@@ -1,10 +1,9 @@
 // Variables
-$chocolate: #d2691e;
-$darkSalmon: #e9967a;
-$indianRed: #cd5c5c;
-$seaShell: #fff5ee;
-$yellow: #ffeb3b;
-$wheat: #f5deb3;
+$LightSteelBlue: #B0C4DE;
+$LightSlateGrey: #778899;
+$MistyRose: ##FFE4E1;
+$OldLace: #FFE4E1;
+$AliceBlue: #F0F8FF;
 
 // Mixins
 @mixin transition($property) {
@@ -12,7 +11,7 @@ $wheat: #f5deb3;
 }
 
 /*Typography*/
-html {font: 16px 'Indie Flower';}
+html {font: 16px 'Times New Roman';}
 h1 {font-size: 2.5em;}
 h2 {font-size: 2.25em;}
 h3 {font-size: 2em;}
