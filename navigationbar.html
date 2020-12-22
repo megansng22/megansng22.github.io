@@ -6,11 +6,34 @@ body{
     background-color: lightsteelblue;
 }
 
-.navigation{
+ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: lightsteelblue;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
 }
+    
+li a{
+    display: block;
+    width: 100px;
+    color: oldlace;
+}
+    
+li a:hover{
+    background-color: oldlace;
+    color: lightsteelblue;
+}
+.active{
+    background-color: mistyrose;
+    color: oldlace;
+}    
+    
 </style>
 </head>
 
@@ -18,10 +41,10 @@ body{
     <nav role="navigation">
         <label for="nav-check"></label>
         <ul class="navigation">
-          <li><a href="#sec-home">home</a></li>
-          <li><a href="#sec-introduction">about me!</a></li>
-          <li><a href="#sec-workexamples">my projects</a></li>
-          <li><a href="#sec-contact">contact me</a></li>
+          <li><a href="https://github.com/megansng22/megansng22.github.io/blob/main/index.html">Home</a></li>
+          <li><a href="https://github.com/megansng22/megansng22.github.io/blob/main/introblurb.html">About me!</a></li>
+          <li><a href="https://github.com/megansng22/megansng22.github.io/blob/main/workexamples.html">My Projects</a></li>
+          <li><a href="https://github.com/megansng22/megansng22.github.io/blob/main/contactme.html">Contact Me</a></li>
         </ul>
       </nav>
 </body>
