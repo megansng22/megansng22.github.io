@@ -21,5 +21,13 @@ body{
     text-align: center;
     color: dimgray;
     margin-top: 100px;
+  }
 
+  a{
+    text-decoration: none;
+    color: mistyrose;
+  }
+
+  a:visited{
+    color: dimgray;
   }
