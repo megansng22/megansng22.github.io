@@ -30,9 +30,11 @@ body{
   .icons{
     display: block;
     font-size: 5em;
-    margin-left: 0.75em;
-    float: left;
-    display: inline-block;
+    margin-left: auto;
+    padding: 0;
+    text-align: center;
+    margin-right: auto;
+    vertical-align: middle;
   }
 
   a{
