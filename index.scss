@@ -23,8 +23,25 @@ body{
     margin-top: 100px;
   }
 
-  p.line{
-    line-height: 1.8;
+  .line{
+    width: 300px;
+    height: 300px;
+    position: relative;
+  }
+
+  .bubble{
+    position: absolute;
+    left: 93px;
+    top: 21px;
+    width: 135px;
+    height: 84px;
+    display: table;
+  }
+
+  .bubble p{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
   }
 
   .icons{
